@@ -278,6 +278,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Request Movies Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
+                ],
+                [
+                    InlineKeyboardButton("About", callback_data="about")
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -286,7 +289,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Request Movies Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
-                ]
+                ],
+                [
+                    InlineKeyboardButton("Help", callback_data="help")
+                    
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
