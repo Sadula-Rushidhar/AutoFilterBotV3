@@ -117,7 +117,8 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("My Group", url='https://t.me/+GBwLhrsxumo4NzE1')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
+                InlineKeyboardButton("Help", callback_data="help")
+                ],[
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
             )
