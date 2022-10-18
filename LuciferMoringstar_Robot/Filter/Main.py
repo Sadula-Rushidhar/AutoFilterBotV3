@@ -294,6 +294,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("Help", callback_data="help")
                     
                 ]
+                ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
