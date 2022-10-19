@@ -117,6 +117,8 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("My Group", url='https://t.me/+GBwLhrsxumo4NzE1')
                 ],[
+                InlineKeyboardButton('Request Movies (or) Series Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
+                ],[
                 InlineKeyboardButton("Help", callback_data="help")
                 ],[
                 InlineKeyboardButton("About", callback_data="about")
@@ -332,7 +334,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('Request Movies Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
+            InlineKeyboardButton('Request Movies (or) Series Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
