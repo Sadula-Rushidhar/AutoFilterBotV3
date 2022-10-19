@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('Request Movies Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
+                    InlineKeyboardButton('Request Movies (or) Series Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
                 ],
                 [
                     InlineKeyboardButton("My Group", url='https://t.me/+GBwLhrsxumo4NzE1')
@@ -291,7 +291,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Request Movies Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
+                    InlineKeyboardButton('Request Movies (or) Series Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
                 ],
                 [
                     InlineKeyboardButton("My Group", url='https://t.me/+GBwLhrsxumo4NzE1')
@@ -320,7 +320,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Request Movies Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
+                        InlineKeyboardButton('Request Movies (or) Series Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
                     ]
                     ]
                 
@@ -351,7 +351,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Request Movies Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
+                        InlineKeyboardButton('Request Movies (or) Series Here', url='https://t.me/+kn_W3H-jXKMzYTM1')
                     ]
                     ]
                 
